@@ -1,0 +1,71 @@
+# ==========================
+# Global OS / Editor Files
+# ==========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# ==========================
+# Chrome Extension (emailWriterExtension)
+# ==========================
+emailWriterExtension/node_modules/
+emailWriterExtension/dist/
+emailWriterExtension/build/
+
+# Ignore packed extension files
+*.crx
+*.pem
+
+# ==========================
+# Spring Boot Backend (email-writer-sb)
+# ==========================
+email-writer-sb/target/
+email-writer-sb/out/
+email-writer-sb/.gradle/
+email-writer-sb/build/
+
+# Maven/Gradle Wrapper Jars
+email-writer-sb/.mvn/wrapper/maven-wrapper.jar
+email-writer-sb/gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+email-writer-sb/*.log
+
+# Application Properties (Add example file)
+email-writer-sb/src/main/resources/application.properties
+
+# If using env files
+email-writer-sb/.env
+
+# ==========================
+# Frontend React (Frontend/)
+# ==========================
+Frontend/node_modules/
+Frontend/.parcel-cache/
+Frontend/dist/
+Frontend/build/
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.production.local
+Frontend/.env.test.local
+
+# Logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+
+# ==========================
+# Others (optional)
+# ==========================
+*.iml
